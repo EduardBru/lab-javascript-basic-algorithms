@@ -18,11 +18,12 @@ function conditionals (driver, navigator){
     }
 }
 function driverSpaces(driver){
-let driverWithSpaces="";
+let driverWithSpaces=driver[0].toUpperCase();
 
-for (let i=0; i<driver.length; i++){
+
+for (let i=1; i<driver.length; i++){
    
-    driverWithSpaces= driverWithSpaces+driver[i]+" ";
+    driverWithSpaces += " "+ driver[i].toUpperCase();
     
    
 }
